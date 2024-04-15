@@ -1,0 +1,54 @@
+body {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  top: 130px;
+  left: 510px;
+  color: white;
+}
+
+.p1 {
+   background-color: crimson;
+   padding: 25px;
+   color: white;
+   position: relative;
+   right: 510px;
+   bottom: 120px;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  label {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  input[type="text"] {
+    border-bottom-color: black;
+    border-radius: 15px;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:rgba(226, 15, 57, 0.541);
+  }
+  
+  #ageDisplay {
+    margin-top: 20px;
+    font-weight: bold;
+  }
