@@ -1,3 +1,6 @@
+//prompt user for input
+const prompt = require("prompt-sync")({ sigint: true });
+
 async function fetchAge() {
   // Get the value of the name input field and remove leading and trailing whitespace
   const name = document.getElementById("nameInput").value.trim();

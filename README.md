@@ -15,7 +15,8 @@ async function fetchAge() {
       return;
     }
   
-    const response = await fetch(`https://api.agify.io/?name=${name}`);
+  **fetch**
+  const response = await fetch(`https://api.agify.io/?name=${name}`);
     console.log("Response from API:", response);
   
     if (!response.ok) {
